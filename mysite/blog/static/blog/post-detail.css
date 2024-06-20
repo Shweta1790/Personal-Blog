@@ -1,9 +1,11 @@
 body {
-  background-color: #e7e7e7;
+  background-color: #c8e9ee;
+  /* background: linear-gradient(to right, white, #6abdcb);  */
+
 }
 
 #main-navigation {
-  background-color: #810266;
+  background: linear-gradient(to right, #20b8cf, #2079cf); /* Gradient for navigation */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -13,7 +15,7 @@ body {
   width: 90%;
   max-width: 90rem;
   border-radius: 16px;
-  background-color: #5706c0;
+  background: linear-gradient(to right, #20b8cf, #2079cf); /* Gradient for summary */
   position: relative;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   height: 22rem;
@@ -44,12 +46,19 @@ body {
 }
 
 #summary address {
+  color: white;
   font-weight: bold;
+}
+
+/* Change link color in address section */
+#summary address a {
+  color: #ffcc00; /* Bright link color */
+  text-decoration: none; /* Optional: remove underline */
 }
 
 #summary time {
   font-weight: bold;
-} 
+}
 
 main {
   width: 90%;
@@ -61,9 +70,9 @@ main {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
-.tag1{
+.tag1 {
   background-color: white;
-  color: #390281;
+  color: #20b8cf; /* Text color matching gradient */
   padding: 0.5rem 1rem;
   border-radius: 8px;
 }

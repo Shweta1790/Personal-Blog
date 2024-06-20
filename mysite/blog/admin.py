@@ -1,6 +1,9 @@
 from django.contrib import admin
 
 # Register your models here.
+from django.contrib import admin
+
+# Register your models here.
 from .models import Tag, Author, Post
 
 class PostAdmin(admin.ModelAdmin):

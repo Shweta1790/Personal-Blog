@@ -1,9 +1,11 @@
 body {
-    background-color: #e7e7e7;
+    background-color: #c8e9ee;
+    /* background: linear-gradient(to right, white, #6abdcb);  */
+
 }
 
 #main-navigation {
-    background-color: #390281;
+    background: linear-gradient(to right, #20b8cf, #2079cf); 
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 }
 
@@ -39,5 +41,6 @@ ul {
     transform-origin: center;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
     border-radius: 12px;
-    background-color: white;
+    background: linear-gradient(to right, #20b8cf, #2079cf); /* Gradient for post background */
+    color: white; /* Ensure text is readable on gradient background */
 }
